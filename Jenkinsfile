@@ -9,7 +9,7 @@ pipeline {
         }
 		stage('test') {
 			steps {
-				sh 'pytest - v'
+				sh 'pytest -v'
 			}
 		}
     }
